@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="564.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.QueuController">
+   <children>
+      <JFXListView fx:id="listView" layoutX="113.0" layoutY="98.0" prefHeight="356.0" prefWidth="513.0" AnchorPane.leftAnchor="113.0" AnchorPane.rightAnchor="188.0" />
+      <JFXButton fx:id="addButton" layoutX="655.0" layoutY="361.0" onAction="#handleButtonAction" prefHeight="26.0" prefWidth="120.0" style="-fx-background-color: #1976d2;" text="Add patient" textFill="WHITE" />
+      <JFXButton fx:id="nextButton" layoutX="655.0" layoutY="137.0" onAction="#handleButtonAction" prefHeight="26.0" prefWidth="112.0" style="-fx-background-color: #1976d2;" text="Next patient" textFill="WHITE" />
+      <ImageView fx:id="imageView" fitHeight="84.0" fitWidth="200.0" layoutX="307.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <JFXButton fx:id="currentPatientButton" layoutX="157.0" layoutY="14.0" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="426.0" style="-fx-background-color: #99e699;" text="Current patient : " textFill="WHITE" />
+      <ImageView fx:id="logOutID" fitHeight="59.0" fitWidth="66.0" layoutX="727.0" layoutY="491.0" onMouseClicked="#handleMouse" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pics/out.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

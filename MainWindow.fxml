@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="signUpButton" onMouseClicked="#handleMouse" prefHeight="597.0" prefWidth="819.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainWindowController">
+   <children>
+      <ImageView fitHeight="313.0" fitWidth="335.0" layoutX="223.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pics/g7836.png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="usernameFIeld" layoutX="218.0" layoutY="347.0" maxWidth="326.0" minWidth="326.0" prefHeight="48.0" prefWidth="326.0" promptText="Phone Number / email" />
+      <Text layoutX="316.0" layoutY="524.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not signed up yet ? " wrappingWidth="130.74267578125" />
+      <JFXButton fx:id="signupButton" layoutX="348.0" layoutY="548.0" onAction="#handleAction" style="-fx-background-color: #1976d2;" text="Sign up" textFill="WHITE" />
+      <JFXPasswordField fx:id="passwordField" layoutX="222.0" layoutY="395.0" maxWidth="318.0" minWidth="318.0" prefHeight="48.0" prefWidth="318.0" promptText="Password" />
+      <ImageView fx:id="confirmImg" fitHeight="48.0" fitWidth="52.0" layoutX="555.0" layoutY="388.0" onMouseClicked="#handleMouse" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pics/check.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="wrongInfoLabel" layoutX="341.0" layoutY="452.0" prefHeight="26.0" prefWidth="2.0" textFill="#e81414" />
+      <Label fx:id="wrongInfoLabel" layoutX="323.0" layoutY="457.0" textFill="#e81414" />
+   </children>
+</AnchorPane>

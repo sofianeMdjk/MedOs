@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="309.0" prefWidth="517.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="sample.AddPatientController">
+   <children>
+      <JFXTextField fx:id="familyName" layoutX="33.0" layoutY="33.0" maxWidth="457.0" minWidth="457.0" prefHeight="54.0" prefWidth="457.0" promptText="Family name" />
+      <JFXTextField fx:id="firstName" layoutX="33.0" layoutY="133.0" maxWidth="457.0" minWidth="457.0" prefHeight="54.0" prefWidth="457.0" promptText="First name" />
+      <JFXButton fx:id="confirmButton" layoutX="176.0" layoutY="211.0" onAction="#handleButtonAction" prefHeight="43.0" prefWidth="165.0" style="-fx-background-color: #1976d2;" text="Confirm" textFill="WHITE" />
+   </children>
+</AnchorPane>

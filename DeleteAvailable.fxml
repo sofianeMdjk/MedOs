@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="262.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DeleteAvailableController">
+   <children>
+      <JFXButton fx:id="patientButton" layoutX="31.0" layoutY="99.0" prefHeight="73.0" prefWidth="159.0" style="-fx-background-color: #1976d2;" text="Patient :" textFill="WHITE" />
+      <JFXButton fx:id="deleteButton" layoutX="253.0" layoutY="99.0" prefHeight="73.0" prefWidth="168.0" style="-fx-background-color: #1976d2;" text="Delete" textFill="WHITE" />
+   </children>
+</AnchorPane>

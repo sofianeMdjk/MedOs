@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="421.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PatientInfosController">
+   <children>
+      <ImageView fitHeight="178.0" fitWidth="200.0" layoutX="394.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pics/male.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="14.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Family name : " wrappingWidth="156.7294921875" />
+      <Text layoutX="14.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Second name" />
+      <Text layoutX="14.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birth Date :" />
+      <Text layoutX="14.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone number :" />
+      <Text layoutX="14.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email :" />
+      <JFXButton fx:id="historyButton" layoutX="226.0" layoutY="313.0" prefHeight="56.0" prefWidth="157.0" style="-fx-background-color: #1976d2;" text="Confirm availability" textFill="#fcfcfc" />
+   </children>
+</AnchorPane>

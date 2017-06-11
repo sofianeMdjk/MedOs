@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="560.0" prefWidth="798.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.QueuManagementController">
+   <children>
+      <JFXListView fx:id="listView" layoutX="55.0" layoutY="122.0" prefHeight="340.0" prefWidth="683.0" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="55.0" />
+      <JFXButton fx:id="addingButton" layoutX="55.0" layoutY="482.0" onAction="#handleAction" prefHeight="38.0" prefWidth="142.0" style="-fx-background-color: #1976d2;" text="Add patient" textFill="WHITE" />
+      <JFXButton fx:id="nextPatientButton" layoutX="328.0" layoutY="482.0" onAction="#handleAction" prefHeight="38.0" prefWidth="142.0" style="-fx-background-color: #1976d2;" text="Next Patient" textFill="WHITE" />
+      <JFXButton fx:id="deletingButton" layoutX="601.0" layoutY="482.0" onAction="#handleAction" prefHeight="38.0" prefWidth="142.0" style="-fx-background-color: #1976d2;" text="Delete patient" textFill="WHITE" />
+   </children>
+</AnchorPane>
