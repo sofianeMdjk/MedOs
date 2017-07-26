@@ -1,0 +1,255 @@
+body {
+	background: #262626;
+	height: 100%;
+	font-family: Ubuntu, Roboto, sans-serif !important;
+}
+.linkini{
+	font-size: 25px;
+	padding-bottom: 60px;
+}
+#do_signup{
+	padding-top: 80px !important;
+}
+
+.parallax {
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	overflow: hidden;
+}
+.parallax div {
+	background: #000;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+}
+.background_solid {
+	position: relative;
+}
+.validate{
+	padding-bottom: 50px;
+}
+.overlay {
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 50;
+	cursor: pointer;
+}
+.msg {
+	position: absolute;
+	z-index: 60;
+	top: 50%;
+	left: 50%;
+	width: 60%;
+	height: 250px;
+}
+.msg p {
+	font-size: 22px;
+	font-weight: bold;
+}
+.msg_inner {
+	position: relative;
+	top: -30%;
+	left: -50%;
+	border-radius: 10px;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	box-shadow: 0 0 22px rgba(0,0,0,0.5);
+	padding: 29px;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: default;
+}
+.success_inner {
+    border: 1px solid #3D8942;
+    background: #58BB5F;
+}
+.fail_inner {
+	border: 1px solid #893E3E;
+    background: #BB5858;
+}
+.success_inner * {
+	opacity: 1;
+}
+#short_about {
+	margin-top: 50px;
+	line-height: 28px;
+	font-size: 17px;
+}
+
+#short_about a {
+	opacity: 0.64;
+	color: #fff;
+	-moz-transition: opacity 0.2s;
+	-webkit-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+
+}
+
+#sign{
+	background:#e82b1f;
+	margin-top: 35px;
+}
+
+
+#do_signup{
+	font-size: 20px;
+	padding-top: 50px;
+	color: white;
+	cursor: pointer;
+}
+
+#short_about a:hover {
+	opacity: 1;
+}
+#soon_container {
+	padding: 10px 0;
+}
+.container{
+	width : 85%;
+}
+#soon {
+	color: #7E7E7E;
+	margin-top: 40px;
+}
+.logo {
+	display: block;
+	margin: 0 auto;
+	width: 25%;
+}
+
+#demo{
+	height: 800px;
+}
+#signup {
+	color : white;
+	display: none;
+	padding: 20px 0;
+}
+#passion {
+	padding: 20px 0px 50px 0px;
+	font-size: 25px;
+
+}
+.input-field {
+	margin-bottom: px;
+
+}
+.switch-label {
+	color: #9e9e9e;
+	font-size: 0.8rem;
+	position: absolute;
+    top: -14px;
+	left: 0.75rem;
+}
+.switch {
+	top: 7px;
+	position: relative;
+	left: -10px;
+}
+#about_open {
+	display: none;
+}
+.btn {
+	background: #e53935;
+	padding: 21px 30px;
+	line-height: 0px;
+}
+.btn:hover, .btn:active, .btn:focus {
+	background: #f44336;
+}
+
+.input-field input:focus + label, .input-field textarea:focus + label {
+ color: #3f51b5 !important;
+}
+/* label underline focus color */
+.input-field input:focus, .input-field textarea:focus {
+ border-bottom: 1px solid #3f51b5 !important;
+ box-shadow: 0 1px 0 0 #3f51b5 !important;
+}
+.dropdown-content li>a, .dropdown-content li>span {
+	color: #3f51b5;
+}
+.switch label input[type=checkbox]:checked+.lever {
+	background-color: #7986cb;
+}
+.switch label input[type=checkbox]:checked+.lever:after {
+	background-color: #3f51b5;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	 display: none;
+	-webkit-appearance: none;
+	margin: 0;
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+#signup_submit {
+	margin-top: 20px;
+}
+@media (max-width: 480px) {
+	.input-field {
+		width: 100%;
+	}
+}
+#social_links {
+	margin: 40px 0 40px 0;
+	position: relative;
+	animation: animLoadedContent 1s cubic-bezier(0.7,0,0.3,1) both;
+    -webkit-animation: animLoadedContent 1s cubic-bezier(0.7,0,0.3,1) both;
+    animation-delay: 0.25s;
+    -webkit-animation-delay: 0.25s;
+}
+#social_links a {
+	display: inline-block;
+	margin-right: 20px;
+	height: 48px;
+	width: 48px;
+	transition: opacity 0.5s;
+	opacity: 0.6;
+}
+
+
+.input-field label {
+	width: auto !important;
+	left: 16px;
+}
+.select-dropdown li.optgroup {
+	min-height: 0;
+	height: 1px;
+}
+#custom_field {
+	display: none;
+}
+
+#sub{
+	padding-top: 65px;
+}
+#tt{
+	color: white;
+}
+#t{
+	padding-bottom: 80px;
+	margin-top: 20px;
+}
+#demot{
+	padding-bottom: 20px !important;
+}
+#and1{
+	width: 45%;
+}
+#desk1{
+	padding-top: 8%;
+	width: 90%;
+}
